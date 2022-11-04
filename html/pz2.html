@@ -1,13 +1,135 @@
 <!DOCTYPE html>
 <html lang = en>
 
+<style>
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 75px 84px 85px;
+}
+a {
+  color: #408253;
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.5;
+}
+.imgheader{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav{
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+color: #E5E5E5;
+}
+h1{
+margin-top: 75px;
+font-weight: 700;
+font-size: 64px;
+text-align: center;
+}
+.h21{
+text-align: center;
+margin-top: 87px;
+font-weight: 700;
+font-size: 48px;
+line-height: 65px;
+}
+.desc{
+    margin-top: 55px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+}
+.map{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+  margin-bottom: 151px;
+}
+  section{
+  margin-bottom: 76px;
+  width: 1271px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  iframe
+  {
+    align-self: left;
+    border: none;
+  }
+  table {
+    height: 206px;
+    border-collapse: collapse; /* Отображать только одинарные линии */
+  }
+  h2{
+    text-align: left;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 17px;
+  }
+ 
+  thead {
+    background: #D9F0E0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+  }
+  tbody {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    background: #D9F0E0;
+  }
+  tfoot{
+    background: #408253;
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+  .sales{
+    font-style: italic;
+    font-weight: 600;
+    line-height: 41px;
+    text-align: left;
+    padding-left: 50px;
+  }
+  th,td{
+    border: 1px solid #408253;
+    width: 212px;
+    height: 103px;
+    text-align: center;
+  }
+  .clause{
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 9px;
+  }
+  footer{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: right;
+  }
+  tfoot td{
+    border:solid 1px white;
+  }
+</style>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style/styles.css">
-    <link rel="stylesheet" href="../style/fonts/OpenSans/stylesheet.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
@@ -17,13 +139,13 @@
         <main>
             <h1>Канцелярия для Вас и Ваших детей</h1>
                 <picture>
-                    <source srcset="../images/Rect_low.jpg" media="(max-width: 768px)">
-                    <source srcset="../images/Rect_med.jpg" media="(max-width: 1270px)">
-                    <img class="imgheader" src="../images/Rect_full.jpg" alt="Картинка с размерами">
+                    <source srcset="Rect_low.jpg" media="(max-width: 768px)">
+                    <source srcset="Rect_med.jpg" media="(max-width: 1270px)">
+                    <img class="imgheader" src="Rect_full.jpg" alt="Картинка с размерами">
                 </picture>
             <h2 class="h21">Детские принадлежности</h2>
             <p class="desc">В нашем интернет-магазине вы сможете найти большой выбор детских принадлежностей.<br> Большой выбор фломастеров, карандашей, тетрадей.</p>
-            <img class="map" src="../images/Art.jpg" width="1269" height="695" usemap="#map" alt="Навигация">
+            <img class="map" src="Art.jpg" width="1269" height="695" usemap="#map" alt="Навигация">
             <map name="map"> 
                 <area shape="rect" alt="Закладка 1" coords="605,183,840,505" href="#colors">
                 <area shape="poly" alt="Закладка 2" coords="836,110,996,75,1206,555,1126,590" href="#brushes">
@@ -31,7 +153,7 @@
                 <area shape="rect" alt="Закладка 4" coords="25,1,587,695" href="https://arzamas.academy/mag/927-impressionism" target="_blank">
             </map>
             <section id="colors">
-                <h2><img src="../images/Vector.jpg" style="margin-right: 20px;" alt="Акварели">Набор акварелей</h2>
+                <h2><img src="Vector.jpg" style="margin-right: 20px;" alt="Акварели">Набор акварелей</h2>
                 <table>
                     <thead>
                         <tr>
@@ -64,7 +186,7 @@
                 </table>
             </section>
             <section id="brushes">
-                <h2><iframe src="../images/Vector(1).jpg" width=60 height=55></iframe>Набор кисточек </h2>
+                <h2><iframe src="Vector(1).jpg" width=60 height=55></iframe>Набор кисточек </h2>
                 <table>
                     <thead>
                         <tr>
